@@ -4,11 +4,10 @@
     box-sizing: border-box;
     font-family: 'poppins' , sans-serif;
 }
-body,html{
+
+.main-container{
     width:100%;
-}
-.container{
-    width:100%;
+    max-width: 100%;
     min-height: 100vh;
     background:linear-gradient(135deg,#4203a9,#90bafc);
     color:#fff;
