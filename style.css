@@ -54,6 +54,7 @@ body,html{
     border-radius: 5px;
     font-weight: 500;
     color:#333;
+    
     cursor:pointer;
 }
 .input-box input:-webkit-calendar-pickerindicator{
@@ -83,13 +84,18 @@ body,html{
     .calculator{
         width:100%;
         max-width: 100%;
+        margin-top: 50px;
+       
+        margin-left: 0;
+        margin-right: 0;
+
        
     }
     .input-box{
         width:100%;
       margin:20px 0;
       padding:10px;
-      max-width: 300px;
+      max-width: 360px;
 
     }
     .input-box input:-webkit-calendar-pickerindicator{
@@ -101,14 +107,14 @@ body,html{
 }
     .input-box input{
         width:100%;
-        max-width: 180px;
-        font-size: 12px;
+        max-width: 250px;
+        font-size: 20px;
         
     }
     .input-box button{
        max-width:100px;
        padding:17px 15px;
-       font-size: 12px;
+       font-size: 13px;
     }
     @media (max-width:768px) and (min-width:481px){
         .input-box{
