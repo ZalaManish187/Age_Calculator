@@ -98,13 +98,7 @@ body,html{
       max-width: 360px;
 
     }
-    .input-box input:-webkit-calendar-pickerindicator{
-    margin-top: 100px;
    
-    position: absolute;
-
-
-}
     .input-box input{
         width:100%;
         max-width: 250px;
